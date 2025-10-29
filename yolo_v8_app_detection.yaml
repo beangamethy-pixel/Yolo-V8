@@ -1,11 +1,7 @@
-# root
-path: ./datasets
-
 # yolo_v8_app_detection.yaml
+path: ./datasets
 train: ./datasets/images/train  # 训练集路径
 val: ./datasets/images/val      # 验证集路径
 
-nc: 15  # 类别数（根据你的应用数量调整）
-names: ['美团', '饿了么', 'QQ音乐', '网易云音乐', '淘宝', '天猫', '京东', '咸鱼', 'QQ音乐_搜索框', 'QQ音乐_搜索键', 'QQ音乐_音乐播放按钮', '搞定地图', '百度地图', '高德地图', 'QQ音乐_音乐暂停按钮']  # 类别名称
-
-
+nc: 15  # 类别数
+names: ['美团', '饿了么', 'QQ音乐', '网易云音乐', '淘宝', '天猫', '京东', '咸鱼', 'QQ音乐_搜索框', 'QQ音乐']  # 使用英文逗号
