@@ -1,5 +1,5 @@
 # yolo_v8_app_detection.yaml
-path: /content/Yolo-V8/datasets/datasets # 数据集路径
+path: /content/Yolo-V8/datasets # 数据集路径
 train: /content/Yolo-V8/datasets/images/train # 训练集路径
 val: /content/Yolo-V8/datasets/images/val   # 验证集路径
 
